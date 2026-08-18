@@ -1,0 +1,16 @@
+{
+	"league": 3,
+	"week": 21,
+	"seedcount": 8,
+	"timelimit": 17,
+	"data": [
+		{"number": 1, "type": "buried_treasure"},
+		{"number": 2, "type": "village"},
+		{"number": 3, "type": "ruined_portal"},
+		{"number": 4, "type": "desert_temple"},
+		{"number": 5, "type": "shipwreck"},
+		{"number": 6, "type": "desert_temple"},
+		{"number": 7, "type": "ruined_portal"},
+		{"number": 8, "type": "buried_treasure"}
+	]
+}

@@ -1,0 +1,7 @@
+twitch-api-header=Authorization=OAuth o2ing8oo5q524qw04m4ti6ed9x8462
+player-external-http
+default-stream=1080p60,best
+twitch-low-latency
+hls-segment-stream-data
+hls-live-edge=2
+twitch-supported-codecs=h264,h265,av1
