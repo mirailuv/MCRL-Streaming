@@ -3,18 +3,18 @@ INSTALL
 on linux, all the dependencies are probably available in your distro's repositories.
 
 install the dependencies:\
-streamlink https://streamlink.github.io\
-gradle https://gradle.org\
-bun https://bun.com\
-git https://git-scm.com\
+streamlink https://streamlink.github.io \
+gradle https://gradle.org \
+bun https://bun.com \
+git https://git-scm.com \
 git lfs https://git-lfs.com
 
 on linux, you probably also want qpwgraph to configure audio.\
 https://github.com/rncbc/qpwgraph
 
 install obs plugins:\
-gradient source https://obsproject.com/forum/resources/gradient-source.1172\
-tuna https://obsproject.com/forum/resources/tuna.843\
+gradient source https://obsproject.com/forum/resources/gradient-source.1172 \
+tuna https://obsproject.com/forum/resources/tuna.843 \
 waveform https://obsproject.com/forum/resources/waveform.1423
 
 set up obs websocket. it should be enabled with port 4455 and authentication disabled.
@@ -22,13 +22,13 @@ set up obs websocket. it should be enabled with port 4455 and authentication dis
 decide where you want the setup folder to be, probably just home folder. open terminal in that folder.\
 these are the commands for linux. if you're on windows the commands may be different.\
 clone this repository. it may take a while as it's over 2GB download.\
-$ git clone https://github.com/mirailuv/MCRL-Streaming.git\
+$ git clone https://github.com/mirailuv/MCRL-Streaming.git \
 enter the folder.\
 $ cd MCRL-Streaming\
 export the git lfs data.\
 $ git lfs migrate export --include="*"\
 clone the streamtool and inventory viewer repositories.\
-$ git clone https://github.com/mirailuv/MCRL-Streaming.git\
+$ git clone https://github.com/mirailuv/MCRL-Streaming.git \
 $ git clone https://github.com/Notava1ble/mcsr-obs-inv-displayer.git
 
 copy the files in configfiles.\
