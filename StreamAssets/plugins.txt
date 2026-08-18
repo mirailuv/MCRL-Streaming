@@ -1,0 +1,5 @@
+install these plugins to make the stream setup look good
+
+gradient source
+tuna
+waveform
