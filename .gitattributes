@@ -43,3 +43,4 @@
 /StreamAssets/IntermissionMusic/Virbank[[:space:]]City[[:space:]]-[[:space:]]Mewcore.webm filter=lfs diff=lfs merge=lfs -text
 /StreamAssets/IntermissionMusic/surf[[:space:]]theme[[:space:]](ORAS)[[:space:]]-[[:space:]]Tanoshi.webm filter=lfs diff=lfs merge=lfs -text
 /league.json filter=lfs diff=lfs merge=lfs -text
+league.json filter=lfs diff=lfs merge=lfs -text
