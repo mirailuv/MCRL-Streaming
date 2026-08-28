@@ -33,6 +33,7 @@ $ git clone https://github.com/Notava1ble/mcsr-obs-inv-displayer.git
 
 copy the files in configfiles.\
 copy config.twitch to streamlink config folder, on linux that would usually be ~/.config/streamlink/
+edit the file and add your twitch token. this isn't fully necessary but if you have turbo it'll prevent streams from cutting off due to ad breaks.
 
 on linux, also copy discord-audio.conf to pipewire config folder, that would usually be ~/.config/pipewire/pipewire.conf.d/\
 if the folders don't exist it should be fine to just create them.\
