@@ -1,4 +1,4 @@
-twitch-api-header=Authorization=OAuth o2ing8oo5q524qw04m4ti6ed9x8462
+twitch-api-header=Authorization=OAuth TOKEN_HERE
 player-external-http
 default-stream=1080p60,best
 twitch-low-latency
