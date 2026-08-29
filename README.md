@@ -7,7 +7,8 @@ streamlink https://streamlink.github.io \
 gradle https://gradle.org \
 bun https://bun.com \
 git https://git-scm.com \
-git lfs https://git-lfs.com
+git lfs https://git-lfs.com\
+java 21+ (surely you can figure this out without a link)
 
 on linux, you probably also want qpwgraph to configure audio.\
 https://github.com/rncbc/qpwgraph
