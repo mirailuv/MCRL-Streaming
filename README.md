@@ -29,7 +29,7 @@ $ cd MCRL-Streaming\
 export the git lfs data.\
 $ git lfs migrate export --include="*"\
 clone the streamtool and inventory viewer repositories.\
-$ git clone https://github.com/mirailuv/MCRL-Streaming.git \
+$ git clone https://github.com/mirailuv/streamtool.git \
 $ git clone https://github.com/Notava1ble/mcsr-obs-inv-displayer.git
 
 copy the files in configfiles.\
