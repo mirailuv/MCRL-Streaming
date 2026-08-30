@@ -2,8 +2,8 @@ INSTALL
 
 on linux, all the dependencies are probably available in your distro's repositories.
 
-for linux:
-make sure you have the obs browser source and vlc media source available. they may need to be installed separately depending on how your distro packages obs. you should not use the obs flatpak as it's hard to install plugins on it.
+for linux:\
+make sure you have the obs browser source and vlc media source available. they may need to be installed separately depending on how your distro packages obs. you should not use the obs flatpak as it's hard to install plugins on it.\
 also you need to have ffmpeg installed with the proprietary media codecs, so you're able to decode the streamlink video.
 
 install the dependencies:\
@@ -39,7 +39,7 @@ $ git clone https://github.com/Notava1ble/mcsr-obs-inv-displayer.git
 set up streamtool following the instructions here:\
 https://github.com/mirailuv/streamtool
 
-set up inventory viewer\
+set up inventory viewer:\
 open terminal in the mcsr-obs-inv-displayer folder.\
 rename .env.example to .env\
 edit the file and change INPUT_FILE to be the path to the symlink you created for streamtool.\
@@ -49,7 +49,7 @@ then you can try to run it with:\
 $ bun run start
 
 copy the files in configfiles.\
-copy config.twitch to streamlink config folder, on linux that would usually be ~/.config/streamlink/
+copy config.twitch to streamlink config folder, on linux that would usually be ~/.config/streamlink/ \
 create the folders if they don't exist.\
 edit the file and add your twitch token. if you don't want to do this, you can also just remove the line from the config.
 
