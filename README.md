@@ -2,6 +2,10 @@ INSTALL
 
 on linux, all the dependencies are probably available in your distro's repositories.
 
+for linux:
+make sure you have the obs browser source and vlc media source available. they may need to be installed separately depending on how your distro packages obs. you should not use the obs flatpak as it's hard to install plugins on it.
+also you need to have ffmpeg installed with the proprietary media codecs, so you're able to decode the streamlink video.
+
 install the dependencies:\
 streamlink https://streamlink.github.io \
 gradle https://gradle.org \
@@ -32,12 +36,25 @@ clone the streamtool and inventory viewer repositories.\
 $ git clone https://github.com/mirailuv/streamtool.git \
 $ git clone https://github.com/Notava1ble/mcsr-obs-inv-displayer.git
 
+set up streamtool following the instructions here:\
+https://github.com/mirailuv/streamtool
+
+set up inventory viewer\
+open terminal in the mcsr-obs-inv-displayer folder.\
+rename .env.example to .env\
+edit the file and change INPUT_FILE to be the path to the symlink you created for streamtool.\
+run the install command:\
+$ bun install\
+then you can try to run it with:\
+$ bun run start
+
 copy the files in configfiles.\
 copy config.twitch to streamlink config folder, on linux that would usually be ~/.config/streamlink/
-edit the file and add your twitch token. this isn't fully necessary but if you have turbo it'll prevent streams from cutting off due to ad breaks.
+create the folders if they don't exist.\
+edit the file and add your twitch token. if you don't want to do this, you can also just remove the line from the config.
 
 on linux, also copy discord-audio.conf to pipewire config folder, that would usually be ~/.config/pipewire/pipewire.conf.d/\
-if the folders don't exist it should be fine to just create them.\
+create the folders if they don't exist.\
 restart pipewire.\
 $ systemctl --user restart pipewire\
 open qpwgraph. the virtual output discord-audio should be there.\
