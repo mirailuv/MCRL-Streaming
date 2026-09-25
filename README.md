@@ -20,12 +20,13 @@ https://github.com/rncbc/qpwgraph
 install obs plugins:\
 gradient source https://obsproject.com/forum/resources/gradient-source.1172 \
 tuna https://obsproject.com/forum/resources/tuna.843 \
-waveform https://obsproject.com/forum/resources/waveform.1423
+waveform https://obsproject.com/forum/resources/waveform.1423 \
+move https://obsproject.com/forum/resources/move.913/
 
 set up obs websocket. it should be enabled with port 4455 and authentication disabled.
 
 decide where you want the setup folder to be, probably just home folder. open terminal in that folder.\
-these are the commands for linux. if you're on windows the commands may be different.\
+these are the commands for linux. if you're on windows the commands are different.\
 clone this repository. it may take a while as it's over 2GB download.\
 $ git clone https://github.com/mirailuv/MCRL-Streaming.git \
 enter the folder.\
