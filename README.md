@@ -71,4 +71,8 @@ open obs. click scene collections and import. find and select league.json as the
 make sure the audio inputs for mic and discord are correct.\
 edit streamtool/obs_layout.json and set the correct paths there as well. also if you remade / renamed the audio sources, update the names.
 
+set up tuna: \
+set the song format to "{title}     ", the path to StreamAssets -> Assets -> song.txt, placeholder to "No song playing ", song source to VLC and press Start. \
+then go on VLC tab, select scene IntermissionMusic and make sure you've added the VLC Video source.
+
 that should be everything. you can test the streamtool using the files in testfiles.
