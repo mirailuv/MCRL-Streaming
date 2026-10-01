@@ -66,7 +66,7 @@ set up qpwgraph to run on startup.
 
 open the file league.json with a text editor\
 replace every instance of "/home/me/MCRL Streaming/" with the correct path to the folder.\
-on windows, replace forward slashes in paths with backward slashes.\
+Always use forward slashes (/) for all paths, even on Windows.\
 open obs. click scene collections and import. find and select league.json as the file.\
 make sure the audio inputs for mic and discord are correct.\
 edit streamtool/obs_layout.json and set the correct paths there as well. also if you remade / renamed the audio sources, update the names.
